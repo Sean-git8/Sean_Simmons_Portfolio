@@ -11,3 +11,5 @@ Example:
 For Data Acquisition, there is Data_Acquisition.pdf, Data_Acquisition_servicesfile.csv, and Data_Acquisition_code.ipynb
 
 All of the files with the same or similiar name are related to their respective projects.
+
+Data Acquisitions
