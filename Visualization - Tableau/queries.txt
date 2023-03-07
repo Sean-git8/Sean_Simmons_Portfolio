@@ -1,0 +1,22 @@
+/* This section creates a table for the services CSV file,
+sets the key, and gives ownership */
+CREATE TABLE electricity
+(
+"Empty" INT,
+"YEAR" INT,
+"MONTH" INT,
+"STATE" character varying(10) NOT NULL,
+"TYPE OF PRODUCTION" character varying(50),
+"ENERGY SOURCE" character varying(50),
+"GENERATION (Megawatthours)" FLOAT,
+Primary KEY ("Empty", "STATE", "GENERATION (Megawatthours)", "ENERGY SOURCE", "TYPE OF PRODUCTION", "YEAR", "MONTH")
+)
+TABLESPACE pg_default;
+ 
+ALTER TABLE public.electricity
+	OWNER to postgres;
+copy electricity FROM '\\DESKTOP-BT4131D\Users\Public\organised_gen.CSV' DELIMITER ',' csv header;
+select * FROM electricity;
+
+
+
