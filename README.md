@@ -1,5 +1,6 @@
 # Personal-Projects-Portfolio
-Welcome, these are some data analysis exercises I have been working on to keep sharpening my skills for my masters program. Please see the 9 Data analytics projects and reports I have done that work through the full data analytics life cycle. Each project is separated into folders by their main data anlytics life cycle role.
+linkedin:www.linkedin.com/in/sean-simmons-07380b18a
+Welcome, these are some data analysis projects I have been working on for my masters program. Please see the 9 Data analytics projects and reports I have done that work through the full data analytics life cycle. Each project is separated into folders by their main data anlytics life cycle role.
 
 Each folder then has one or more projects labeled as "Tasks" that use specific techniques to provide an analysis and report for a percieved business problem, Here is a working list of what each topic covers and a comma separates individual tasks in each folder.
 Look at the PDF's for the reports on these analysis!
